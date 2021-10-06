@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-service
+  cloud:
+    config:
+      uri: http://localhost:8082
+      username: admin
+      password: 12345678
+  boot:
+    admin:
+      client:
+        url: http://localhost:8086
