@@ -1,12 +1,17 @@
+server:
+  port: 8082
+  
 spring:
-  application:
-    name: product-service
   cloud:
     config:
-      uri: http://localhost:8082
-      username: io
+      server:
+        git:
+          uri: https://github.com/ZeroXD219/miproyecto.git
+          searchPaths: config-data
+          username: andyllamodiaz@gmail.com
+          password: 123Andy123@
+          default-label: "main"
+  security:
+    user:
+      name: io
       password: 123
-  boot:
-    admin:
-      client:
-        url: http://localhost:8086
