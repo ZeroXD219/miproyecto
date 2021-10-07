@@ -4,8 +4,8 @@ spring:
   cloud:
     config:
       uri: http://localhost:8082
-      username: admin
-      password: 12345678
+      username: io
+      password: 123
   boot:
     admin:
       client:
