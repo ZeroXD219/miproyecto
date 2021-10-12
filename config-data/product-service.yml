@@ -11,7 +11,7 @@ spring:
           username: andyllamodiaz@gmail.com
           password: 123Andy123@
           default-label: "main"
-  security:
-    user:
+  security: 
+    user: 
       name: io
       password: 123
